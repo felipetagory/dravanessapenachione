@@ -211,6 +211,24 @@ ul {
   color: #FFFFFF;
 }
 
+.btn-primary svg,
+.btn-icon-wa {
+  width: 22px;
+  height: 22px;
+  max-width: 22px;
+  max-height: 22px;
+  fill: var(--color-sand);
+  flex-shrink: 0;
+  display: inline-block;
+  vertical-align: middle;
+  transition: fill 0.3s ease;
+}
+
+.btn-primary:hover svg,
+.btn-primary:hover .btn-icon-wa {
+  fill: #FFFFFF;
+}
+
 @keyframes shinery {
   0%, 100% {
     left: -10%;
