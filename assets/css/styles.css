@@ -1023,6 +1023,79 @@ ul {
   display: block;
 }
 
+.contact-online-card {
+  width: 52%;
+  background: var(--color-bg-white);
+  border-radius: 20px;
+  padding: 36px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.07);
+  border: 1px solid var(--color-sand);
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+}
+
+.contact-online-card .online-badge {
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+  background-color: var(--color-sand);
+  color: var(--color-dark-brown);
+  padding: 8px 18px;
+  border-radius: 50px;
+  font-family: var(--font-sans);
+  font-size: 14px;
+  font-weight: 700;
+  width: fit-content;
+}
+
+.contact-online-card .online-badge svg {
+  width: 18px;
+  height: 18px;
+  fill: var(--color-brown);
+}
+
+.contact-online-card h3 {
+  font-family: var(--font-serif);
+  font-size: 26px;
+  color: var(--color-dark-brown);
+  margin: 0;
+  line-height: 1.3;
+}
+
+.contact-online-card p {
+  font-family: var(--font-sans);
+  font-size: 16px;
+  color: var(--color-text);
+  line-height: 1.6;
+  margin: 0;
+}
+
+.online-benefits-list {
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+  margin-top: 6px;
+}
+
+.online-benefits-list li {
+  display: flex;
+  align-items: flex-start;
+  gap: 12px;
+  font-family: var(--font-sans);
+  font-size: 15px;
+  color: var(--color-text);
+  line-height: 1.5;
+}
+
+.online-benefits-list li svg {
+  width: 20px;
+  height: 20px;
+  fill: var(--color-gold);
+  flex-shrink: 0;
+  margin-top: 2px;
+}
+
 /* ==========================================================================
    RODAPÉ (.site-footer)
    ========================================================================== */
@@ -1263,7 +1336,8 @@ ul {
   }
 
   .contact-info,
-  .contact-map {
+  .contact-map,
+  .contact-online-card {
     width: 100%;
     padding-left: 0;
   }
