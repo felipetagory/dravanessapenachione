@@ -1,0 +1,5 @@
+# Arquivos de backup e WordPress legado (contém senhas e arquivos > 100MB bloqueados pelo GitHub)
+cgi-bin/
+cgi-bin.zip
+*.zip
+*.log
