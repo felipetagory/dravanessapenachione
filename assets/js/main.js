@@ -98,4 +98,17 @@ document.addEventListener('DOMContentLoaded', () => {
       });
     });
   });
+
+  /* ------------------------------------------------------------------------
+     3. BLOCOS EXPANSÍVEIS / ACORDEÃO (COMO FUNCIONA E PERGUNTAS FREQUENTES)
+     ------------------------------------------------------------------------ */
+  document.querySelectorAll('.faq-item').forEach((item) => {
+    const questionBtn = item.querySelector('.faq-question');
+    if (!questionBtn) return;
+
+    questionBtn.addEventListener('click', () => {
+      const isOpen = item.classList.toggle('active');
+      questionBtn.setAttribute('aria-expanded', String(isOpen));
+    });
+  });
 });
