@@ -1,0 +1,805 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+  <title>Psicóloga em Americana – SP | Clínica Vanessa Penachione</title>
+  <meta name="robots" content="max-image-preview:large">
+  <meta name="description" content="Atendimento psicológico acolhedor em Americana (Jardim Girassol) e online para quem busca superar crises, gerenciar emoções e reconquistar a qualidade de vida. Clínica Vanessa Penachione – CRP 06/91299.">
+  <meta property="og:type" content="website">
+  <meta property="og:site_name" content="Clínica Vanessa Penachione">
+  <meta property="og:title" content="Psicóloga em Americana – SP | Clínica Vanessa Penachione">
+  <meta property="og:description" content="Atendimento psicológico acolhedor em Americana e online. +100 avaliações 5 estrelas no Google e 18 anos de experiência clínica.">
+  <meta property="og:url" content="https://vanessapenachione.com.br/psicologa-em-americana/">
+  <meta property="og:image" content="https://vanessapenachione.com.br/assets/img/Foto-Vanessa-Psicologa-2.jpg">
+
+  <!-- Google Tag Manager -->
+  <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+  new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+  j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+  'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+  })(window,document,'script','dataLayer','GTM-53XDV8VB');</script>
+  <!-- End Google Tag Manager -->
+
+  <!-- Google Fonts: Fraunces & Manrope -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,300;0,9..144,400;1,9..144,300;1,9..144,400&family=Manrope:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+  <style>
+#raiz{
+  --verde:#1c2620; --verde2:#243129; --verde3:#30433a;
+  --creme:#ece6d9; --creme2:#f5f1e9; --papel:#fbf9f4;
+  --ouro:#c4a272; --ouro2:#e2c79c; --terra:#b9785a;
+  --texto:#1f2a24; --suave:#5f6c64; --linha:rgba(31,42,36,.13);
+  --serif:"Fraunces",Georgia,serif; --sans:"Manrope",system-ui,sans-serif;
+  --r:22px; --max:1240px; --ease:cubic-bezier(.2,.7,.1,1);
+}
+#raiz,#raiz *{box-sizing:border-box;margin:0;padding:0}
+html{scroll-behavior:smooth}
+body{margin:0!important;background:#f5f1e9!important}
+#raiz{font-family:var(--sans);font-weight:400;color:var(--texto);background:var(--creme2);font-size:17px;line-height:1.65;-webkit-font-smoothing:antialiased;overflow-x:clip}
+#raiz img{max-width:100%;display:block}
+#raiz a{color:inherit}
+#raiz .wrap{max-width:var(--max);margin:0 auto;padding:0 28px}
+#raiz h1,#raiz h2,#raiz h3{font-family:var(--serif);font-weight:300;line-height:1.02;letter-spacing:-.025em;font-variation-settings:"opsz" 144;color:inherit;text-transform:none}
+#raiz h1{font-size:clamp(46px,7.6vw,112px)}
+#raiz h2{font-size:clamp(36px,5vw,68px)}
+#raiz h3{font-size:28px;font-weight:400;letter-spacing:-.015em}
+#raiz em{font-style:italic;color:var(--ouro)}
+#raiz .kicker{font-size:12px;letter-spacing:.22em;text-transform:uppercase;font-weight:600;color:var(--ouro);display:inline-flex;align-items:center;gap:12px;margin-bottom:24px}
+#raiz .kicker:before{content:"";width:28px;height:1px;background:currentColor}
+#raiz .lead{font-size:clamp(17px,1.5vw,20px);color:var(--suave);max-width:600px;font-weight:300}
+#raiz section{padding:130px 0;position:relative}
+#raiz .btn{display:inline-flex;align-items:center;gap:12px;padding:18px 30px;border-radius:999px;font-family:var(--sans);font-size:15px;font-weight:600;text-decoration:none;transition:transform .35s var(--ease),box-shadow .35s,background .35s,color .35s;cursor:pointer;border:0;position:relative;overflow:hidden;white-space:nowrap}
+#raiz .btn .seta{width:28px;height:28px;border-radius:50%;display:grid;place-items:center;background:rgba(28,38,32,.12);transition:transform .35s var(--ease)}
+#raiz .btn:hover .seta{transform:translateX(4px) rotate(-45deg)}
+#raiz .btn svg{width:15px;height:15px}
+#raiz .btn-ouro{background:var(--ouro2);color:var(--verde)}
+#raiz .btn-ouro:hover{background:#ecd5ae;box-shadow:0 18px 40px -12px rgba(196,162,114,.7)}
+#raiz .btn-linha{border:1px solid rgba(236,230,217,.4);color:var(--creme);background:rgba(236,230,217,.04);backdrop-filter:blur(6px)}
+#raiz .btn-linha:hover{background:var(--creme);color:var(--verde)}
+#raiz .btn-verde{background:var(--verde);color:var(--creme)}
+#raiz .btn-verde .seta{background:rgba(236,230,217,.14)}
+/* progresso */
+#raiz .progresso{position:fixed;top:0;left:0;height:2px;background:var(--ouro2);z-index:80;width:0}
+/* header */
+#raiz header{position:fixed;inset:0 0 auto 0;z-index:50;transition:background .4s,transform .4s var(--ease)}
+#raiz header.solid{background:rgba(28,38,32,.86);backdrop-filter:blur(14px)}
+#raiz header.some{transform:translateY(-100%)}
+#raiz .nav{display:flex;align-items:center;justify-content:space-between;height:84px}
+#raiz .logo{text-decoration:none;color:var(--creme);font-family:var(--serif);font-size:23px;letter-spacing:.03em;line-height:1;font-weight:400}
+#raiz .logo small{display:block;font-family:var(--sans);font-size:9px;letter-spacing:.34em;color:var(--ouro);margin-bottom:3px;font-weight:600}
+#raiz .logo i{color:var(--ouro2);font-weight:300}
+#raiz .menu{display:flex;gap:30px;align-items:center;list-style:none}
+#raiz .menu a{text-decoration:none;font-size:14px;position:relative}
+#raiz .menu a:not(.btn){color:rgba(236,230,217,.78)}
+#raiz .menu a:not(.btn):after{content:"";position:absolute;left:0;bottom:-6px;width:100%;height:1px;background:var(--ouro2);transform:scaleX(0);transform-origin:right;transition:transform .4s var(--ease)}
+#raiz .menu a:not(.btn):hover:after{transform:scaleX(1);transform-origin:left}
+#raiz .menu .btn{padding:12px 22px;font-size:14px}
+#raiz .burger{display:none;background:none;border:1px solid rgba(236,230,217,.3);border-radius:50%;width:46px;height:46px;color:var(--creme)}
+#raiz .burger span{display:block;width:16px;height:1px;background:currentColor;margin:4px auto;transition:transform .3s}
+/* HERO */
+#raiz .hero{min-height:100svh;display:flex;align-items:flex-end;background:var(--verde);color:var(--creme);overflow:hidden;padding:150px 0 70px}
+#raiz .slides{position:absolute;inset:0}
+#raiz .slide{position:absolute;inset:-4%;background-size:cover;background-position:center;opacity:0;transition:opacity 2s ease;animation:kb 16s linear infinite}
+#raiz .slide.ativo{opacity:1}
+@keyframes kb{0%{transform:scale(1) translate(0,0)}100%{transform:scale(1.14) translate(-2%,-1%)}}
+#raiz .hero:before{content:"";position:absolute;inset:0;z-index:1;background:linear-gradient(180deg,rgba(28,38,32,.62) 0%,rgba(28,38,32,.35) 35%,rgba(28,38,32,.93) 82%,var(--verde) 100%),linear-gradient(90deg,rgba(28,38,32,.76),transparent 70%)}
+#raiz .hero .wrap{position:relative;z-index:2;width:100%}
+#raiz .hero h1{max-width:760px;margin-bottom:34px;font-size:clamp(42px,5.2vw,86px);animation:sobe 1.2s var(--ease) .15s both}
+#raiz .hero-grid{display:grid;grid-template-columns:1fr minmax(300px,400px);gap:70px;align-items:end}
+#raiz .hero-foto{position:relative;margin:0;animation:sobe 1.3s var(--ease) .3s both}
+#raiz .hero-foto:before{content:"";position:absolute;inset:-14px 14px 14px -14px;border:1px solid rgba(226,199,156,.55);border-radius:220px 220px 22px 22px;z-index:-1}
+#raiz .arco{aspect-ratio:2/3;border-radius:220px 220px 22px 22px;overflow:hidden;box-shadow:0 40px 80px -30px rgba(0,0,0,.6);animation:abre 1.6s var(--ease) .35s both}
+#raiz .arco img{width:100%;height:100%;object-fit:cover;object-position:70% 22%;animation:zoomout 2.6s var(--ease) .35s both}
+#raiz .selo-hero{position:absolute;left:-40px;bottom:46px;background:rgba(251,249,244,.95);color:var(--verde);border-radius:16px;padding:14px 20px;box-shadow:0 24px 50px -18px rgba(0,0,0,.5);animation:flutua 6s ease-in-out infinite}
+#raiz .selo-hero b{display:block;font-family:var(--serif);font-weight:400;font-size:19px;line-height:1.2}
+#raiz .selo-hero span{font-size:12.5px;color:var(--suave)}
+#raiz .google-pill{display:inline-flex;align-items:center;gap:10px;background:rgba(251,249,244,.1);border:1px solid rgba(226,199,156,.3);backdrop-filter:blur(8px);padding:8px 16px;border-radius:999px;font-size:13px;color:var(--creme);margin-bottom:20px}
+#raiz .google-pill b{color:var(--ouro2);letter-spacing:1px}
+@keyframes sobe{from{opacity:0;transform:translateY(34px)}to{opacity:1;transform:none}}
+@keyframes abre{from{clip-path:inset(100% 0 0 0 round 220px 220px 22px 22px)}to{clip-path:inset(0 0 0 0 round 220px 220px 22px 22px)}}
+@keyframes zoomout{from{transform:scale(1.12)}to{transform:scale(1)}}
+#raiz .hero-base{display:flex;flex-direction:column;align-items:flex-start;gap:30px}
+#raiz .hero .lead{color:rgba(236,230,217,.82);max-width:560px}
+#raiz .ctas{display:flex;gap:14px;flex-wrap:wrap}
+#raiz .fade-in{animation:sobe 1s var(--ease) both}
+#raiz .hero .kicker.fade-in{animation-delay:0s}
+#raiz .hero .fade-in.d1{animation-delay:.45s}
+#raiz .hero .fade-in.d2{animation-delay:.6s}
+#raiz .hero .fade-in.d3{animation-delay:.75s}
+#raiz .dots{display:flex;gap:8px;margin-top:46px}
+#raiz .dots button{width:34px;height:2px;border:0;background:rgba(236,230,217,.25);cursor:pointer;position:relative;overflow:hidden}
+#raiz .dots button.ativo:after{content:"";position:absolute;inset:0;background:var(--ouro2);animation:barra 6s linear forwards}
+@keyframes barra{from{transform:scaleX(0);transform-origin:left}to{transform:scaleX(1);transform-origin:left}}
+#raiz .scroll-ind{position:absolute;right:28px;bottom:70px;z-index:2;writing-mode:vertical-rl;font-size:11px;letter-spacing:.3em;color:rgba(236,230,217,.6);display:flex;align-items:center;gap:14px}
+#raiz .scroll-ind:after{content:"";width:1px;height:60px;background:linear-gradient(var(--ouro2),transparent);animation:desce 2s ease-in-out infinite}
+@keyframes desce{0%{transform:scaleY(0);transform-origin:top}50%{transform:scaleY(1);transform-origin:top}51%{transform-origin:bottom}100%{transform:scaleY(0);transform-origin:bottom}}
+/* marquee */
+#raiz .marquee{background:var(--ouro2);color:var(--verde);overflow:hidden;padding:22px 0;white-space:nowrap}
+#raiz .marquee .trilho{display:inline-flex;animation:mq 40s linear infinite}
+#raiz .marquee span{font-family:var(--serif);font-style:italic;font-size:clamp(22px,2.4vw,32px);font-weight:300;padding:0 28px;display:inline-flex;align-items:center;gap:56px}
+#raiz .marquee span:after{content:"✦";font-style:normal;font-size:14px;color:var(--terra)}
+@keyframes mq{to{transform:translateX(-50%)}}
+/* ident */
+#raiz .ident-grid{display:grid;grid-template-columns:1fr 1fr;gap:90px;align-items:start}
+#raiz .sticky{position:sticky;top:110px}
+#raiz .img-moldura{border-radius:var(--r);overflow:hidden;position:relative;aspect-ratio:4/5}
+#raiz .img-moldura img{width:100%;height:118%;object-fit:cover;will-change:transform}
+#raiz .selo{position:absolute;left:-30px;bottom:40px;background:var(--papel);border-radius:18px;padding:20px 24px;box-shadow:0 30px 60px -20px rgba(28,38,32,.35);max-width:260px;animation:flutua 6s ease-in-out infinite}
+#raiz .selo b{font-family:var(--serif);font-weight:400;font-size:20px;display:block;line-height:1.2;margin-bottom:4px}
+#raiz .selo small{color:var(--suave);font-size:13px}
+@keyframes flutua{50%{transform:translateY(-10px)}}
+#raiz .sinais{list-style:none;margin-top:46px}
+#raiz .sinais li{font-family:var(--serif);font-weight:300;font-size:clamp(22px,2.1vw,29px);line-height:1.28;padding:26px 0;border-top:1px solid var(--linha);display:grid;grid-template-columns:50px 1fr;color:rgba(31,42,36,.35);transition:color .6s}
+#raiz .sinais li.on{color:var(--texto)}
+#raiz .sinais li i{font-family:var(--sans);font-style:normal;font-size:12px;letter-spacing:.1em;color:var(--ouro);padding-top:10px;font-weight:600}
+#raiz .fecho{margin-top:30px;padding:28px 30px;border-radius:var(--r);background:var(--verde);color:var(--creme);font-size:17px}
+#raiz .fecho strong{color:var(--ouro2);font-weight:500}
+/* formatos */
+#raiz .formatos{background:var(--verde);color:var(--creme);overflow:hidden}
+#raiz .formatos .lead{color:rgba(236,230,217,.7)}
+#raiz .topo-sec{display:flex;justify-content:space-between;align-items:flex-end;gap:40px;flex-wrap:wrap}
+#raiz .cards{display:grid;grid-template-columns:1fr 1fr;gap:28px;margin-top:70px}
+#raiz .card{border-radius:var(--r);overflow:hidden;background:var(--verde2);border:1px solid rgba(236,230,217,.08);display:flex;flex-direction:column;transition:transform .6s var(--ease)}
+#raiz .card:hover{transform:translateY(-8px)}
+#raiz .card-img{aspect-ratio:16/10;overflow:hidden;position:relative}
+#raiz .card-img img{width:100%;height:100%;object-fit:cover;transition:transform 1.4s var(--ease)}
+#raiz .card:hover .card-img img{transform:scale(1.07)}
+#raiz .card-img .tag{position:absolute;top:20px;left:20px;background:rgba(28,38,32,.6);backdrop-filter:blur(8px);color:var(--ouro2);font-size:11px;letter-spacing:.2em;text-transform:uppercase;padding:8px 14px;border-radius:999px;font-weight:600}
+#raiz .card-corpo{padding:40px 40px 44px;display:flex;flex-direction:column;flex:1}
+#raiz .card h3{font-size:38px;font-weight:300;margin-bottom:14px}
+#raiz .card p{color:rgba(236,230,217,.7);margin-bottom:24px;font-weight:300}
+#raiz .chips{display:flex;flex-wrap:wrap;gap:8px;margin-bottom:34px}
+#raiz .chips span{border:1px solid rgba(236,230,217,.18);border-radius:999px;padding:7px 14px;font-size:13.5px;color:rgba(236,230,217,.88)}
+#raiz .card .btn{margin-top:auto;align-self:flex-start}
+/* galeria */
+#raiz .galeria{padding:0 0 130px;background:var(--verde);overflow:hidden}
+#raiz .galeria .trilho{display:flex;gap:22px;width:max-content;animation:mq 60s linear infinite}
+#raiz .galeria:hover .trilho{animation-play-state:paused}
+#raiz .galeria figure{width:320px;height:420px;border-radius:var(--r);overflow:hidden;flex:0 0 auto;position:relative}
+#raiz .galeria figure:nth-child(even){height:340px;margin-top:80px}
+#raiz .galeria img{width:100%;height:100%;object-fit:cover;filter:saturate(.85);transition:filter .6s,transform 1.2s var(--ease)}
+#raiz .galeria figure:hover img{filter:saturate(1.05);transform:scale(1.05)}
+#raiz .galeria figcaption{position:absolute;left:18px;bottom:16px;color:var(--creme);font-family:var(--serif);font-style:italic;font-size:22px;text-shadow:0 2px 20px rgba(0,0,0,.5)}
+/* abordagem */
+#raiz .abord{background:var(--creme2)}
+#raiz .abord-grid{display:grid;grid-template-columns:1.05fr 1fr;gap:80px;align-items:center}
+#raiz .abord-img{border-radius:var(--r);overflow:hidden;aspect-ratio:1/1.1;position:relative}
+#raiz .abord-img img{width:100%;height:120%;object-fit:cover}
+#raiz .pilares{display:grid;gap:0;margin-top:40px}
+#raiz .pilar{display:grid;grid-template-columns:70px 1fr;padding:26px 0;border-top:1px solid var(--linha);cursor:default}
+#raiz .pilar .n{font-family:var(--serif);font-size:15px;color:var(--ouro);padding-top:8px}
+#raiz .pilar h3{transition:transform .5s var(--ease),color .4s}
+#raiz .pilar:hover h3{transform:translateX(10px);color:var(--terra)}
+#raiz .pilar p{color:var(--suave);font-size:15.5px;margin-top:6px}
+#raiz .citacao{background:var(--creme);padding:140px 0;text-align:center;overflow:hidden}
+#raiz .citacao blockquote{font-family:var(--serif);font-weight:300;font-size:clamp(30px,4.2vw,58px);line-height:1.15;letter-spacing:-.02em;max-width:1050px;margin:0 auto}
+#raiz .citacao blockquote .pal{opacity:.15;transition:opacity .5s}
+#raiz .citacao blockquote .pal.on{opacity:1}
+#raiz .citacao cite{display:block;margin-top:34px;font-style:normal;font-size:13px;letter-spacing:.2em;text-transform:uppercase;color:var(--ouro);font-weight:600}
+/* depoimentos google */
+#raiz .depoimentos{background:var(--papel)}
+#raiz .dep-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:24px;margin-top:64px}
+#raiz .dep-card{background:var(--creme2);border:1px solid var(--linha);border-radius:var(--r);padding:34px 30px;display:flex;flex-direction:column;justify-content:space-between;transition:transform .4s var(--ease),box-shadow .4s}
+#raiz .dep-card:hover{transform:translateY(-6px);box-shadow:0 24px 48px -20px rgba(28,38,32,.15)}
+#raiz .dep-stars{color:#d49b35;font-size:16px;letter-spacing:2px;margin-bottom:18px;display:flex;align-items:center;justify-content:space-between}
+#raiz .dep-stars span{font-family:var(--sans);font-size:11px;letter-spacing:.14em;text-transform:uppercase;color:var(--suave);font-weight:600}
+#raiz .dep-txt{font-size:15.5px;color:var(--texto);line-height:1.65;margin-bottom:24px}
+#raiz .dep-autor{display:flex;align-items:center;gap:12px;padding-top:18px;border-top:1px solid var(--linha)}
+#raiz .dep-autor b{font-family:var(--serif);font-weight:400;font-size:18px;display:block;line-height:1.1}
+#raiz .dep-autor small{font-size:12.5px;color:var(--suave)}
+/* numeros */
+#raiz .numeros{background:var(--verde);color:var(--creme);padding:90px 0}
+#raiz .num-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:30px}
+#raiz .num-grid div{border-left:1px solid rgba(236,230,217,.14);padding-left:26px}
+#raiz .num-grid b{display:block;font-family:var(--serif);font-weight:300;font-size:clamp(46px,5vw,72px);line-height:1;color:var(--ouro2);margin-bottom:10px}
+#raiz .num-grid span{font-size:14.5px;color:rgba(236,230,217,.7)}
+/* fundadora */
+#raiz .fund-grid{display:grid;grid-template-columns:.95fr 1.05fr;gap:100px;align-items:center}
+#raiz .foto{position:relative}
+#raiz .foto .img-moldura{aspect-ratio:4/5;clip-path:inset(100% 0 0 0 round 22px);transition:clip-path 1.6s var(--ease)}
+#raiz .foto.on .img-moldura{clip-path:inset(0 0 0 0 round 22px)}
+#raiz .foto .img-moldura img{height:100%;background:var(--creme);transform:scale(1.03)}
+#raiz .assinatura{position:absolute;right:-36px;bottom:-30px;width:150px;height:150px;border-radius:50%;background:var(--ouro2);display:grid;place-items:center;animation:gira 22s linear infinite}
+#raiz .assinatura svg{width:100%;height:100%}
+#raiz .assinatura b{position:absolute;font-family:var(--serif);font-style:italic;font-size:34px;color:var(--verde);animation:gira 22s linear infinite reverse}
+@keyframes gira{to{transform:rotate(360deg)}}
+#raiz .creds{display:flex;flex-wrap:wrap;gap:10px;margin:30px 0 34px}
+#raiz .creds span{border:1px solid var(--linha);border-radius:999px;padding:9px 18px;font-size:14px;background:var(--papel)}
+#raiz .fund p{color:var(--suave);margin-bottom:16px;max-width:580px}
+#raiz .fund-nums{display:grid;grid-template-columns:1fr 1fr;gap:18px;margin:30px 0 30px;max-width:580px}
+#raiz .fund-nums div{background:var(--verde);color:var(--creme);border-radius:18px;padding:22px 24px}
+#raiz .fund-nums b{display:block;font-family:var(--serif);font-weight:300;font-size:44px;line-height:1;color:var(--ouro2);margin-bottom:8px}
+#raiz .fund-nums span{font-size:14px;color:rgba(236,230,217,.75);line-height:1.4;display:block}
+/* consultorio e localizacao em americana */
+#raiz .consultorio{background:var(--verde);color:var(--creme)}
+#raiz .consultorio .lead{color:rgba(236,230,217,.75)}
+#raiz .clinica-fotos{display:grid;grid-template-columns:repeat(3,1fr);gap:24px;margin-top:60px}
+#raiz .clinica-fotos figure{border-radius:var(--r);overflow:hidden;aspect-ratio:4/5;position:relative;border:1px solid rgba(236,230,217,.1)}
+#raiz .clinica-fotos img{width:100%;height:100%;object-fit:cover;transition:transform 1.2s var(--ease)}
+#raiz .clinica-fotos figure:hover img{transform:scale(1.06)}
+#raiz .loc-grid{display:grid;grid-template-columns:1fr 1.15fr;gap:60px;margin-top:80px;align-items:stretch}
+#raiz .loc-card{background:var(--verde2);border:1px solid rgba(236,230,217,.1);border-radius:var(--r);padding:44px 40px;display:flex;flex-direction:column;justify-content:space-between;gap:28px}
+#raiz .loc-item{display:flex;gap:16px;align-items:flex-start}
+#raiz .loc-item svg{flex:0 0 22px;width:22px;height:22px;color:var(--ouro2);margin-top:4px}
+#raiz .loc-item b{display:block;font-family:var(--serif);font-weight:400;font-size:22px;color:var(--creme);margin-bottom:4px}
+#raiz .loc-item span,#raiz .loc-item a{color:rgba(236,230,217,.75);font-size:15.5px;text-decoration:none}
+#raiz .loc-item a:hover{color:var(--ouro2)}
+#raiz .mapa-moldura{border-radius:var(--r);overflow:hidden;min-height:420px;border:1px solid rgba(236,230,217,.12);background:var(--verde2)}
+#raiz .mapa-moldura iframe{width:100%;height:100%;min-height:420px;border:0;display:block;filter:grayscale(.15) contrast(1.02)}
+/* faq */
+#raiz .faq{background:var(--papel)}
+#raiz .faq-grid{display:grid;grid-template-columns:.8fr 1.2fr;gap:90px}
+#raiz details{border-top:1px solid var(--linha)}
+#raiz details:last-child{border-bottom:1px solid var(--linha)}
+#raiz summary{list-style:none;cursor:pointer;padding:28px 60px 28px 0;font-family:var(--serif);font-size:24px;font-weight:400;letter-spacing:-.01em;position:relative;transition:color .3s}
+#raiz summary:hover{color:var(--terra)}
+#raiz summary::-webkit-details-marker{display:none}
+#raiz summary:after{content:"";position:absolute;right:0;top:24px;width:38px;height:38px;border-radius:50%;border:1px solid var(--linha);background:linear-gradient(var(--texto),var(--texto)) center/12px 1px no-repeat,linear-gradient(var(--texto),var(--texto)) center/1px 12px no-repeat;transition:transform .4s var(--ease),background-color .3s}
+#raiz details[open] summary:after{transform:rotate(45deg);background-color:var(--ouro2)}
+#raiz details p{padding:0 60px 28px 0;color:var(--suave)}
+/* final */
+#raiz .final{color:var(--creme);text-align:center;overflow:hidden;padding:170px 0}
+#raiz .final-bg{position:absolute;inset:-15% 0;background:url("../assets/img/Clinica-3.webp") center/cover;will-change:transform}
+#raiz .final:before{content:"";position:absolute;inset:0;background:rgba(28,38,32,.78);z-index:1}
+#raiz .final .wrap{position:relative;z-index:2}
+#raiz .final h2{max-width:900px;margin:0 auto 24px}
+#raiz .final .lead{margin:0 auto 44px;color:rgba(236,230,217,.8)}
+#raiz .final .ctas{justify-content:center}
+#raiz footer{background:#151d18;color:rgba(236,230,217,.62);padding:80px 0 120px;font-size:14.5px;overflow:hidden}
+#raiz .foot-logo{font-family:var(--serif);font-weight:300;font-size:clamp(54px,11vw,160px);line-height:.9;letter-spacing:-.04em;color:rgba(236,230,217,.08);margin-bottom:60px;white-space:nowrap}
+#raiz .foot-logo i{color:rgba(196,162,114,.22)}
+#raiz .foot{display:grid;grid-template-columns:1.4fr 1fr 1fr;gap:50px}
+#raiz footer h4{font-size:11px;letter-spacing:.24em;color:var(--ouro);font-weight:600;margin-bottom:16px}
+#raiz footer ul{list-style:none;display:grid;gap:8px}
+#raiz footer a{text-decoration:none}
+#raiz footer a:hover{color:var(--creme)}
+#raiz .legal{margin-top:50px;padding-top:26px;border-top:1px solid rgba(236,230,217,.08);font-size:13px;line-height:1.75}
+#raiz .wa-fixo{position:fixed;right:24px;bottom:24px;z-index:60;width:62px;height:62px;border-radius:50%;background:#25d366;color:#fff;display:grid;place-items:center;box-shadow:0 14px 34px -8px rgba(0,0,0,.35);transition:transform .3s var(--ease)}
+#raiz .wa-fixo:hover{transform:scale(1.08)}
+#raiz .wa-fixo:before{content:"";position:absolute;inset:0;border-radius:50%;border:2px solid #25d366;animation:onda 2.4s ease-out infinite}
+@keyframes onda{to{transform:scale(1.6);opacity:0}}
+#raiz .wa-fixo svg{width:30px;height:30px}
+#raiz .barra-mobile{display:none}
+/* reveal */
+#raiz .rv{opacity:0;transform:translateY(40px);transition:opacity 1.1s ease,transform 1.1s var(--ease)}
+#raiz .rv.on{opacity:1;transform:none}
+#raiz .rv.d1{transition-delay:.12s}
+#raiz .rv.d2{transition-delay:.24s}
+#raiz .rv.d3{transition-delay:.36s}
+@media (prefers-reduced-motion:reduce){
+  #raiz,#raiz *,#raiz *:before,#raiz:before,#raiz *:after,#raiz:after{animation:none!important;transition:none!important}
+  #raiz .rv,#raiz .fade-in{opacity:1;transform:none}
+  #raiz .foto .img-moldura{clip-path:none}
+  #raiz .slide.ativo{opacity:1}
+}
+@media (max-width:1000px){
+  #raiz section{padding:96px 0}
+  #raiz .menu{position:fixed;inset:84px 0 auto 0;background:var(--verde);flex-direction:column;align-items:flex-start;padding:30px 28px 36px;gap:22px;display:none}
+  #raiz .menu.aberto{display:flex}
+  #raiz .menu a{font-size:18px}
+  #raiz .burger{display:block}
+  #raiz .ident-grid,#raiz .cards,#raiz .fund-grid,#raiz .faq-grid,#raiz .foot,#raiz .abord-grid,#raiz .loc-grid{grid-template-columns:1fr;gap:50px}
+  #raiz .dep-grid{grid-template-columns:1fr 1fr}
+  #raiz .clinica-fotos{grid-template-columns:1fr 1fr}
+  #raiz .sticky{position:relative;top:0}
+  #raiz .num-grid{grid-template-columns:1fr 1fr}
+  #raiz .selo{left:16px}
+  #raiz .assinatura{right:10px;width:120px;height:120px}
+  #raiz .foto{max-width:460px}
+  #raiz .scroll-ind{display:none}
+  #raiz .hero-grid{grid-template-columns:1fr 300px;gap:40px}
+}
+@media (max-width:600px){
+  #raiz{font-size:16px}
+  #raiz .wrap{padding:0 20px}
+  #raiz .hero{padding:120px 0 40px}
+  #raiz .hero h1{margin-bottom:24px}
+  #raiz .hero-grid{grid-template-columns:1fr;gap:34px}
+  #raiz .hero-foto{order:-1;width:50%;max-width:210px}
+  #raiz .hero-foto:before{inset:-10px 10px 10px -10px}
+  #raiz .selo-hero{left:auto;right:-88%;bottom:20px;padding:10px 14px}
+  #raiz .selo-hero b{font-size:16px}
+  #raiz .selo-hero span{font-size:11px}
+  #raiz .ctas{width:100%}
+  #raiz .ctas .btn{width:100%;justify-content:center}
+  #raiz .dots{margin-top:30px}
+  #raiz .card-corpo{padding:28px 24px 30px}
+  #raiz .card h3{font-size:32px}
+  #raiz .card .btn{align-self:stretch;justify-content:center}
+  #raiz .galeria{padding-bottom:96px}
+  #raiz .galeria figure{width:230px;height:300px}
+  #raiz .galeria figure:nth-child(even){height:250px;margin-top:50px}
+  #raiz .dep-grid,#raiz .clinica-fotos{grid-template-columns:1fr}
+  #raiz .loc-card{padding:30px 24px}
+  #raiz .num-grid{gap:34px 16px}
+  #raiz .num-grid div{padding-left:16px}
+  #raiz .sinais li{grid-template-columns:38px 1fr;padding:20px 0}
+  #raiz summary{font-size:21px;padding-right:54px}
+  #raiz .wa-fixo{display:none}
+  #raiz .barra-mobile{display:flex;position:fixed;inset:auto 0 0 0;z-index:60;padding:12px 14px calc(12px + env(safe-area-inset-bottom));background:rgba(28,38,32,.94);backdrop-filter:blur(12px);gap:10px;transform:translateY(110%);transition:transform .4s var(--ease)}
+  #raiz .barra-mobile.on{transform:none}
+  #raiz .barra-mobile .btn{flex:1;justify-content:center;padding:15px 8px;font-size:14px}
+  #raiz .final{padding:120px 0}
+}
+  </style>
+</head>
+<body>
+  <!-- Google Tag Manager (noscript) -->
+  <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-53XDV8VB"
+  height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+  <!-- End Google Tag Manager (noscript) -->
+
+<div id="raiz">
+<div class="progresso" id="prog" style="width: 0%;"></div>
+
+<header id="topo">
+  <div class="wrap nav">
+    <a href="#inicio" class="logo" aria-label="Clínica Vanessa Penachione, início"><small>CLÍNICA</small>Vanessa <i>Penachione</i></a>
+    <button class="burger" aria-label="Abrir menu" aria-expanded="false" onclick="toggleMenu(this)"><span></span><span></span></button>
+    <ul class="menu" id="menu">
+      <li><a href="#paraqueme">Para quem é</a></li>
+      <li><a href="#formatos">Atendimentos</a></li>
+      <li><a href="#fundadora">Sobre a Dra. Vanessa</a></li>
+      <li><a href="#depoimentos">Depoimentos</a></li>
+      <li><a href="#localizacao">Consultório em Americana</a></li>
+      <li><a class="btn btn-ouro wa" data-origem="menu_americana" href="https://wa.me/5519992892126?text=Oi%2C%20vim%20pelo%20site%20para%20saber%20mais%20sobre%20a%20consulta%20em%20Americana." target="_blank" rel="noopener">Agendar</a></li>
+    </ul>
+  </div>
+</header>
+
+<main>
+<section class="hero" id="inicio">
+  <div class="slides" aria-hidden="true">
+    <div class="slide" style="background-image:url('../assets/img/Clinica-3.webp')"></div>
+    <div class="slide ativo" style="background-image:url('../assets/img/Clinica-2.webp')"></div>
+    <div class="slide" style="background-image:url('../assets/img/Clinica-1.webp')"></div>
+  </div>
+  <div class="wrap">
+    <div class="hero-grid">
+      <div class="hero-txt">
+        <div class="google-pill fade-in"><b>★★★★★</b> <span>+ de 100 avaliações 5 estrelas no Google</span></div>
+        <br>
+        <p class="kicker fade-in">Psicóloga em Americana – SP · Presencial e Online</p>
+        <h1 id="titulo">Conquiste seu equilíbrio emocional com um cuidado <em>humano e especializado.</em></h1>
+        <div class="hero-base">
+          <p class="lead fade-in d1">Atendimento psicológico acolhedor em Americana (Jardim Girassol) e online para quem busca superar crises, gerenciar emoções e reconquistar a qualidade de vida.</p>
+          <div class="ctas fade-in d2">
+            <a class="btn btn-ouro wa" data-origem="hero_presencial" href="https://wa.me/5519992892126?text=Oi%2C%20vim%20pelo%20site%20e%20gostaria%20de%20agendar%20uma%20consulta%20presencial%20em%20Americana." target="_blank" rel="noopener">Agendar em Americana <span class="seta"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M13 6l6 6-6 6"></path></svg></span></a>
+            <a class="btn btn-linha wa" data-origem="hero_online" href="https://wa.me/5519992892126?text=Oi%2C%20vim%20pelo%20site%20e%20gostaria%20de%20agendar%20uma%20consulta%20online." target="_blank" rel="noopener">Consulta online</a>
+          </div>
+        </div>
+        <div class="dots fade-in d3" id="dots">
+          <button aria-label="Foto 1"></button>
+          <button aria-label="Foto 2" class="ativo"></button>
+          <button aria-label="Foto 3"></button>
+        </div>
+      </div>
+      <figure class="hero-foto">
+        <div class="arco">
+          <img decoding="async" fetchpriority="high" src="../assets/img/vanessa.webp" alt="Dra. Vanessa Penachione – Psicóloga em Americana">
+        </div>
+        <figcaption class="selo-hero">
+          <b>Vanessa Penachione</b>
+          <span>Psicóloga em Americana · CRP 06/91299</span>
+        </figcaption>
+      </figure>
+    </div>
+  </div>
+  <div class="scroll-ind">ROLE</div>
+</section>
+
+<div class="marquee" aria-hidden="true"><div class="trilho">
+  <span>Psicóloga em Americana – SP</span><span>Acolhimento</span><span>Equilíbrio Emocional</span><span>Psicóloga em Americana – SP</span><span>Acolhimento</span><span>Equilíbrio Emocional</span><span>Psicóloga em Americana – SP</span><span>Acolhimento</span><span>Equilíbrio Emocional</span><span>Psicóloga em Americana – SP</span><span>Acolhimento</span><span>Equilíbrio Emocional</span>
+</div></div>
+
+<section class="ident" id="paraqueme">
+  <div class="wrap ident-grid">
+    <div class="sticky">
+      <p class="kicker rv">Chegou o momento de cuidar de si</p>
+      <h2 class="rv d1">Como a psicoterapia pode te ajudar <em>hoje?</em></h2>
+      <div class="img-moldura rv d2" style="margin-top:44px;aspect-ratio:4/5">
+        <img decoding="async" class="parallax" data-vel="0.06" src="../assets/img/1.webp" alt="Atendimento Psicológico em Americana – Dra. Vanessa Penachione" style="object-position:center top" loading="lazy">
+      </div>
+    </div>
+    <div>
+      <p class="lead rv">Você não precisa carregar o peso do estresse, da ansiedade ou dos conflitos sozinho. Nosso trabalho clínico é voltado para quem atravessa:</p>
+      <ul class="sinais" id="sinaisLista">
+        <li><i>01</i><span><strong style="font-weight:500;color:var(--ouro)">Ansiedade e Estresse:</strong> sensação contínua de sobrecarga, pensamentos acelerados e dificuldade de relaxar no dia a dia.</span></li>
+        <li><i>02</i><span><strong style="font-weight:500;color:var(--ouro)">Dificuldades nos Relacionamentos:</strong> conflitos amorosos, familiares ou profissionais, dependência emocional e busca por limites saudáveis.</span></li>
+        <li><i>03</i><span><strong style="font-weight:500;color:var(--ouro)">Crises Emocionais e Autoestima:</strong> dúvidas sobre o futuro, sensação de estagnação, falta de confiança e busca por autoconhecimento.</span></li>
+        <li><i>04</i><span><strong style="font-weight:500;color:var(--ouro)">Reconstrução após Relacionamento Abusivo:</strong> apoio especializado para mulheres que desejam recuperar a autonomia e sair emocionalmente do ciclo.</span></li>
+        <li><i>05</i><span><strong style="font-weight:500;color:var(--ouro)">Traumas e Momentos Difíceis:</strong> processos de luto, transições difíceis de vida, términos de ciclo ou superação de experiências dolorosas.</span></li>
+      </ul>
+      <p class="fecho rv"><strong>Não importa a gravidade do problema:</strong> sempre é possível encontrar uma solução e construir um novo caminho juntos.</p>
+    </div>
+  </div>
+</section>
+
+<section class="formatos" id="formatos">
+  <div class="wrap">
+    <div class="topo-sec">
+      <div>
+        <p class="kicker rv">Modalidades na clínica</p>
+        <h2 class="rv d1">Presencial em Americana<br><em>ou onde você estiver.</em></h2>
+      </div>
+      <p class="lead rv d2">Escolha entre o acolhimento presencial em nosso consultório no Jardim Girassol, em Americana, ou a praticidade das sessões online.</p>
+    </div>
+    <div class="cards">
+      <article class="card rv">
+        <div class="card-img"><img decoding="async" src="../assets/img/Clinica-3.webp" alt="Consultório da Clínica Vanessa Penachione em Americana" loading="lazy"><span class="tag">Em Americana – SP</span></div>
+        <div class="card-corpo">
+          <h3>Consulta <em>presencial</em></h3>
+          <p>Em nosso consultório na Rua Uruguai, 247 (Jardim Girassol), um espaço reservado, acolhedor e pensado em cada detalhe para a sua privacidade e conforto.</p>
+          <div class="chips"><span>Jardim Girassol – Americana</span><span>Segunda a Sábado</span><span>Psicoterapia Individual</span><span>Terapia de Casal</span><span>Acupuntura</span></div>
+          <a class="btn btn-ouro wa" data-origem="card_presencial" href="https://wa.me/5519992892126?text=Oi%2C%20vim%20pelo%20site%20e%20gostaria%20de%20agendar%20uma%20consulta%20presencial%20em%20Americana." target="_blank" rel="noopener">Agendar consulta presencial <span class="seta"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M13 6l6 6-6 6"></path></svg></span></a>
+        </div>
+      </article>
+      <article class="card rv d1">
+        <div class="card-img"><img decoding="async" src="../assets/img/casal/photo-1612831455359-970e23a1e4e9.jpg" alt="Atendimento psicológico online por videochamada" loading="lazy"><span class="tag">Todo o Brasil e Exterior</span></div>
+        <div class="card-corpo">
+          <h3>Consulta <em>online</em></h3>
+          <p>Sessões por videochamada segura, ideais para quem tem rotina intensa em Americana, viaja com frequência ou prefere fazer terapia no conforto de casa.</p>
+          <div class="chips"><span>100% Online e Sigiloso</span><span>Horários flexíveis</span><span>Individual e Casal</span><span>Ansiedade e Relacionamentos</span><span>Cadastro e-Psi Ativo</span></div>
+          <a class="btn btn-ouro wa" data-origem="card_online" href="https://wa.me/5519992892126?text=Oi%2C%20vim%20pelo%20site%20e%20gostaria%20de%20agendar%20uma%20consulta%20online." target="_blank" rel="noopener">Agendar consulta online <span class="seta"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M13 6l6 6-6 6"></path></svg></span></a>
+        </div>
+      </article>
+    </div>
+  </div>
+</section>
+
+<div class="galeria" aria-hidden="true"><div class="trilho">
+  <figure><img decoding="async" src="../assets/img/Clinica-3.webp" alt="" loading="lazy"><figcaption>consultório</figcaption></figure>
+  <figure><img decoding="async" src="../assets/img/Clinica-2.webp" alt="" loading="lazy"><figcaption>acolhimento</figcaption></figure>
+  <figure><img decoding="async" src="../assets/img/Clinica-1.webp" alt="" loading="lazy"><figcaption>privacidade</figcaption></figure>
+  <figure><img decoding="async" src="../assets/img/casal/photo-1512438248247-f0f2a5a8b7f0.jpg" alt="" loading="lazy"><figcaption>autoconhecimento</figcaption></figure>
+  <figure><img decoding="async" src="../assets/img/casal/photo-1501004318641-b39e6451bec6.jpg" alt="" loading="lazy"><figcaption>cuidado</figcaption></figure>
+  <figure><img decoding="async" src="../assets/img/casal/photo-1495474472287-4d71bcdd2085.jpg" alt="" loading="lazy"><figcaption>escuta</figcaption></figure>
+  <figure><img decoding="async" src="../assets/img/Clinica-3.webp" alt="" loading="lazy"><figcaption>consultório</figcaption></figure>
+  <figure><img decoding="async" src="../assets/img/Clinica-2.webp" alt="" loading="lazy"><figcaption>acolhimento</figcaption></figure>
+  <figure><img decoding="async" src="../assets/img/Clinica-1.webp" alt="" loading="lazy"><figcaption>privacidade</figcaption></figure>
+  <figure><img decoding="async" src="../assets/img/casal/photo-1512438248247-f0f2a5a8b7f0.jpg" alt="" loading="lazy"><figcaption>autoconhecimento</figcaption></figure>
+  <figure><img decoding="async" src="../assets/img/casal/photo-1501004318641-b39e6451bec6.jpg" alt="" loading="lazy"><figcaption>cuidado</figcaption></figure>
+  <figure><img decoding="async" src="../assets/img/casal/photo-1495474472287-4d71bcdd2085.jpg" alt="" loading="lazy"><figcaption>escuta</figcaption></figure>
+</div></div>
+
+<section class="abord" id="abordagem">
+  <div class="wrap abord-grid">
+    <div class="abord-img rv"><img decoding="async" class="parallax" data-vel="0.1" src="../assets/img/Clinica-2.webp" alt="Ambiente da Clínica Vanessa Penachione em Americana" loading="lazy"></div>
+    <div>
+      <p class="kicker rv">Nossa abordagem</p>
+      <h2 class="rv d1">Psicologia <em>Fenomenológico-Existencial.</em></h2>
+      <p class="lead rv d2" style="margin-top:20px">Na Clínica Vanessa Penachione, cada paciente é compreendido em sua singularidade. Um processo terapêutico ético, profundo e voltado para a vida real.</p>
+      <div class="pilares">
+        <div class="pilar rv"><span class="n">01</span><div><h3>Escuta Atenta e Livre de Julgamentos</h3><p>Um espaço seguro onde você pode ser verdadeiramente ouvido, acolhido com sensibilidade e respeitado no seu tempo.</p></div></div>
+        <div class="pilar rv d1"><span class="n">02</span><div><h3>Compreensão das Emoções</h3><p>Clareza para enxergar padrões repetitivos, compreender conflitos internos e dar novo sentido às experiências vividas.</p></div></div>
+        <div class="pilar rv d2"><span class="n">03</span><div><h3>Ferramentas Práticas e Autonomia</h3><p>Desenvolvimento de recursos emocionais sólidos para tomar decisões, estabelecer limites e reconstruir sua estabilidade.</p></div></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="citacao">
+  <div class="wrap">
+    <blockquote id="cita">Cuidar da saúde emocional não é sinal de fraqueza. É escolher viver com mais consciência, leveza e autonomia sobre a própria história.</blockquote>
+    <cite>Clínica Vanessa Penachione · Americana – SP</cite>
+  </div>
+</section>
+
+<section class="numeros">
+  <div class="wrap num-grid">
+    <div class="rv"><b>+<span class="conta" data-n="4000">4.000</span></b><span>atendimentos realizados</span></div>
+    <div class="rv d1"><b><span class="conta" data-n="18">18</span></b><span>anos de experiência clínica</span></div>
+    <div class="rv d2"><b>+<span class="conta" data-n="100">100</span></b><span>avaliações 5 estrelas no Google</span></div>
+    <div class="rv d3"><b><span class="conta" data-n="100">100</span>%</b><span>ética, acolhimento e sigilo absoluto</span></div>
+  </div>
+</section>
+
+<section id="fundadora">
+  <div class="wrap fund-grid">
+    <div class="foto" id="foto">
+      <div class="img-moldura">
+        <img decoding="async" src="../assets/img/Foto-Vanessa-Psicologa-2.jpg" alt="Dra. Vanessa Penachione – Psicóloga em Americana" loading="lazy">
+      </div>
+      <div class="assinatura" aria-hidden="true">
+        <svg viewBox="0 0 100 100"><defs><path id="circ" d="M50,50 m-38,0 a38,38 0 1,1 76,0 a38,38 0 1,1 -76,0"></path></defs><text font-family="Manrope" font-size="7.1" letter-spacing="1.7" fill="#1c2620" font-weight="600"><textPath href="#circ">CLÍNICA VANESSA PENACHIONE ✦ PSICOLOGIA ✦</textPath></text></svg>
+        <b>V</b>
+      </div>
+    </div>
+    <div class="fund">
+      <p class="kicker rv">Conheça a fundadora</p>
+      <h2 class="rv d1">Dra. Vanessa <em>Penachione</em></h2>
+      <div class="creds rv d2"><span>Psicóloga CRP 06/91299</span><span>Psicóloga Clínica em Americana – SP</span><span>18 anos de experiência</span><span>Abordagem Fenomenológico-Existencial</span></div>
+      <p class="rv">Com 18 anos de experiência na psicologia clínica em Americana, meu compromisso à frente da Clínica Vanessa Penachione é oferecer um espaço seguro, ético e livre de julgamentos.</p>
+      <p class="rv">Através da abordagem Fenomenológico-Existencial, ajudo meus pacientes a compreenderem suas emoções, desenvolverem ferramentas práticas para lidar com os desafios do cotidiano e reconstruírem sua estabilidade emocional.</p>
+      <p class="rv">Seja para tratar a ansiedade, fortalecer relacionamentos, superar uma fase difícil ou investir no seu autoconhecimento, estou pronta para caminhar ao seu lado nesse processo.</p>
+      <div class="fund-nums rv">
+        <div><b>+100</b><span>avaliações 5 estrelas verificadas no Google</span></div>
+        <div><b>18 anos</b><span>transformando vidas em Americana e online</span></div>
+      </div>
+      <a class="btn btn-verde wa rv" data-origem="fundadora" href="https://wa.me/5519992892126?text=Oi%2C%20vim%20pelo%20site%20para%20saber%20mais%20sobre%20a%20consulta." style="margin-top:16px" target="_blank" rel="noopener">Agendar uma consulta <span class="seta"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M13 6l6 6-6 6"></path></svg></span></a>
+    </div>
+  </div>
+</section>
+
+<section class="depoimentos" id="depoimentos">
+  <div class="wrap">
+    <div class="topo-sec">
+      <div>
+        <p class="kicker rv">Depoimentos verificados no Google</p>
+        <h2 class="rv d1">Quem encontrou apoio<br><em>na Clínica Vanessa Penachione.</em></h2>
+      </div>
+      <p class="lead rv d2">Mais de 100 avaliações 5 estrelas de pacientes que vivenciaram um processo terapêutico humano, ético e transformador.</p>
+    </div>
+
+    <div class="dep-grid">
+      <article class="dep-card rv">
+        <div>
+          <div class="dep-stars">★★★★★ <span>Google</span></div>
+          <p class="dep-txt">“Existem profissionais que exercem uma profissão, e existem aqueles que transformam vidas. Ela faz parte do segundo grupo. Sua escuta atenta, sua autenticidade e sua capacidade de acolher sem julgamentos fizeram toda a diferença na minha trajetória.”</p>
+        </div>
+        <div class="dep-autor"><div><b>Luiz Rossignoli</b><small>Avaliação verificada no Google</small></div></div>
+      </article>
+
+      <article class="dep-card rv d1">
+        <div>
+          <div class="dep-stars">★★★★★ <span>Google</span></div>
+          <p class="dep-txt">“Cheguei fragilizada, sem forças e sem conseguir enxergar uma saída. Aos poucos, através de um trabalho sério, humano e extremamente competente, fui me reconstruindo. Minha psicóloga me ajudou a recuperar minha autoestima, minha confiança e minha esperança.”</p>
+        </div>
+        <div class="dep-autor"><div><b>Alexandra dos Santos</b><small>Avaliação verificada no Google</small></div></div>
+      </article>
+
+      <article class="dep-card rv d2">
+        <div>
+          <div class="dep-stars">★★★★★ <span>Google</span></div>
+          <p class="dep-txt">“Ao longo de mais de 5 anos de acompanhamento, amadureci emocionalmente, aprendi a lidar melhor com meus sentimentos e desenvolvi mais autoconhecimento. Sempre me senti ouvida, respeitada e cuidada com muita dedicação e humanidade.”</p>
+        </div>
+        <div class="dep-autor"><div><b>Daiane Pereira Santos</b><small>Avaliação verificada no Google</small></div></div>
+      </article>
+
+      <article class="dep-card rv">
+        <div>
+          <div class="dep-stars">★★★★★ <span>Google</span></div>
+          <p class="dep-txt">“NOTA 1.000! Só tenho a agradecer pelo incrível trabalho que você fez. Você não apenas agregou muito valor à minha vida, como também foi a única pessoa que conseguiu resolver o meu problema e transformar a minha vida. Recomendo de coração!”</p>
+        </div>
+        <div class="dep-autor"><div><b>Flavio Ferreira</b><small>Avaliação verificada no Google</small></div></div>
+      </article>
+
+      <article class="dep-card rv d1">
+        <div>
+          <div class="dep-stars">★★★★★ <span>Google</span></div>
+          <p class="dep-txt">“A Vanessa é incrível. Uma profissional que sabe verdadeiramente escutar e também falar quando necessário. As sessões são incríveis!”</p>
+        </div>
+        <div class="dep-autor"><div><b>Izabelle Malvassora</b><small>Avaliação verificada no Google</small></div></div>
+      </article>
+
+      <article class="dep-card rv d2">
+        <div>
+          <div class="dep-stars">★★★★★ <span>Google</span></div>
+          <p class="dep-txt">“Impossível não se sentir acolhida por essa profissional, que transforma vidas com leveza e empatia. Foi incrível, me ajudou demais em uma fase confusa!”</p>
+        </div>
+        <div class="dep-autor"><div><b>Simone Vargas &amp; Bárbara de Paula</b><small>Avaliações verificadas no Google</small></div></div>
+      </article>
+    </div>
+  </div>
+</section>
+
+<section class="consultorio" id="localizacao">
+  <div class="wrap">
+    <div class="topo-sec">
+      <div>
+        <p class="kicker rv">Consultório em Americana – SP</p>
+        <h2 class="rv d1">Nossas portas estão<br><em>abertas para você.</em></h2>
+      </div>
+      <p class="lead rv d2">Um ambiente tranquilo, reservado e acolhedor no Jardim Girassol, preparado para que você se sinta em segurança desde o primeiro momento.</p>
+    </div>
+
+    <div class="clinica-fotos">
+      <figure class="rv"><img decoding="async" src="../assets/img/Clinica-3.webp" alt="Consultório Clínica Vanessa Penachione em Americana – Ambiente 1" loading="lazy"></figure>
+      <figure class="rv d1"><img decoding="async" src="../assets/img/Clinica-2.webp" alt="Consultório Clínica Vanessa Penachione em Americana – Ambiente 2" loading="lazy"></figure>
+      <figure class="rv d2"><img decoding="async" src="../assets/img/Clinica-1.webp" alt="Consultório Clínica Vanessa Penachione em Americana – Ambiente 3" loading="lazy"></figure>
+    </div>
+
+    <div class="loc-grid">
+      <div class="loc-card rv">
+        <div class="loc-item">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M12 21s-7-5.6-7-11a7 7 0 1 1 14 0c0 5.4-7 11-7 11z"></path><circle cx="12" cy="10" r="2.5"></circle></svg>
+          <div>
+            <b>Endereço em Americana</b>
+            <span>Rua Uruguai, 247 – Jardim Girassol<br>Americana – SP, CEP 13465-680</span>
+          </div>
+        </div>
+        <div class="loc-item">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><circle cx="12" cy="12" r="9"></circle><path d="M12 7v5l3 2"></path></svg>
+          <div>
+            <b>Horário de Atendimento</b>
+            <span>Segunda a Sábado (com hora marcada)</span>
+          </div>
+        </div>
+        <div class="loc-item">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72c.13.96.36 1.9.7 2.81a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.91.34 1.85.57 2.81.7A2 2 0 0 1 22 16.92z"></path></svg>
+          <div>
+            <b>Contato e Agendamentos</b>
+            <span><a class="wa" data-origem="loc_whats" href="https://wa.me/5519992892126?text=Oi%2C%20vim%20pelo%20site%20para%20saber%20mais%20sobre%20a%20consulta.">WhatsApp: (19) 9 9289-2126</a><br><a href="mailto:vanessapenachione@gmail.com">vanessapenachione@gmail.com</a><br><a href="https://www.instagram.com/psivanessapenachione/" target="_blank" rel="noopener">Instagram: @psivanessapenachione</a></span>
+          </div>
+        </div>
+        <a class="btn btn-ouro wa" data-origem="loc_cta" href="https://wa.me/5519992892126?text=Oi%2C%20vim%20pelo%20site%20e%20gostaria%20de%20agendar%20uma%20consulta%20em%20Americana." style="align-self:flex-start" target="_blank" rel="noopener">Agendar horário pelo WhatsApp <span class="seta"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M13 6l6 6-6 6"></path></svg></span></a>
+      </div>
+
+      <div class="mapa-moldura rv d1">
+        <iframe
+          loading="lazy"
+          src="https://maps.google.com/maps?q=R.%20Uruguai%2C%20247%20-%20Jardim%20Girassol%2C%20Americana%20-%20SP%2C%2013465-680&amp;t=m&amp;z=15&amp;output=embed&amp;iwloc=near"
+          title="R. Uruguai, 247 - Jardim Girassol, Americana - SP, 13465-680"
+          aria-label="R. Uruguai, 247 - Jardim Girassol, Americana - SP, 13465-680">
+        </iframe>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="faq" id="duvidas">
+  <div class="wrap faq-grid">
+    <div>
+      <p class="kicker rv">Dúvidas frequentes</p>
+      <h2 class="rv d1">Antes de <em>agendar.</em></h2>
+      <p class="lead rv d2" style="margin-top:20px">Ficou com alguma dúvida sobre os atendimentos em Americana ou online? Chame nossa clínica no WhatsApp.</p>
+    </div>
+    <div class="rv">
+      <details><summary>Onde fica localizada a Clínica Vanessa Penachione em Americana?</summary><p>Nosso consultório fica na Rua Uruguai, 247 – Jardim Girassol, em Americana – SP (CEP 13465-680), em uma região tranquila e de fácil acesso.</p></details>
+      <details><summary>Quais são os dias e horários de atendimento?</summary><p>Atendemos de segunda a sábado, sempre com horário previamente agendado pelo WhatsApp para garantir total pontualidade e privacidade.</p></details>
+      <details><summary>Posso escolher entre consulta presencial e online?</summary><p>Sim! Você pode realizar suas sessões presencialmente no consultório em Americana, 100% online por videochamada, ou alternar quando precisar viajar.</p></details>
+      <details><summary>Quais especialidades são atendidas na clínica?</summary><p>Realizamos psicoterapia individual (ansiedade, estresse, autoestima, depressão, luto, superação de relacionamentos abusivos), terapia de casal e sessões de acupuntura em Americana.</p></details>
+      <details><summary>Como funciona o agendamento da primeira consulta?</summary><p>Basta clicar em qualquer botão de WhatsApp desta página. Conversamos rapidamente para entender sua preferência de modalidade (presencial ou online) e definimos o melhor dia e horário para você.</p></details>
+      <details><summary>A clínica emite recibo para reembolso de plano de saúde?</summary><p>Sim. Emitimos recibo regulamentado para que você possa solicitar reembolso de psicoterapia junto ao seu convênio médico.</p></details>
+    </div>
+  </div>
+</section>
+
+<section class="final" id="agendar">
+  <div class="final-bg" id="finalBg"></div>
+  <div class="wrap">
+    <p class="kicker rv">Primeiro passo</p>
+    <h2 class="rv d1">Comece hoje a cuidar da sua <em>saúde emocional.</em></h2>
+    <p class="lead rv d2">Entre em contato pelo WhatsApp e agende sua consulta presencial em Americana ou online com a Clínica Vanessa Penachione.</p>
+    <div class="ctas rv d3">
+      <a class="btn btn-ouro wa" data-origem="final_presencial" href="https://wa.me/5519992892126?text=Oi%2C%20vim%20pelo%20site%20e%20gostaria%20de%20agendar%20uma%20consulta%20presencial%20em%20Americana." target="_blank" rel="noopener">Agendar consulta presencial <span class="seta"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M13 6l6 6-6 6"></path></svg></span></a>
+      <a class="btn btn-linha wa" data-origem="final_online" href="https://wa.me/5519992892126?text=Oi%2C%20vim%20pelo%20site%20e%20gostaria%20de%20agendar%20uma%20consulta%20online." target="_blank" rel="noopener">Consulta online</a>
+    </div>
+  </div>
+</section>
+</main>
+
+<footer>
+  <div class="wrap">
+    <div class="foot-logo">Clínica <i>Vanessa Penachione</i></div>
+    <div class="foot">
+      <div><p style="max-width:340px">Atendimento psicológico presencial em Americana – SP (Rua Uruguai, 247 – Jardim Girassol) e online para todo o Brasil.</p></div>
+      <div>
+        <h4>NAVEGAÇÃO</h4>
+        <ul>
+          <li><a href="#paraqueme">Para quem é</a></li>
+          <li><a href="#formatos">Atendimentos</a></li>
+          <li><a href="#fundadora">Sobre a Dra. Vanessa</a></li>
+          <li><a href="#depoimentos">Depoimentos</a></li>
+          <li><a href="#localizacao">Localização</a></li>
+          <li><a href="#duvidas">Dúvidas</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>ATENDIMENTOS &amp; CONTATO</h4>
+        <ul>
+          <li><a class="wa" data-origem="rodape" href="https://wa.me/5519992892126?text=Oi%2C%20vim%20pelo%20site%20para%20saber%20mais%20sobre%20a%20consulta." target="_blank" rel="noopener">WhatsApp (19) 9 9289-2126</a></li>
+          <li><a href="https://www.instagram.com/psivanessapenachione/" target="_blank" rel="noopener">Instagram @psivanessapenachione</a></li>
+          <li><a href="../consulta-online/">Consulta Online (Ansiedade)</a></li>
+          <li><a href="../terapiadecasal/">Terapia de Casal</a></li>
+          <li><a href="../relacionamentoabusivo/">Relacionamento Abusivo</a></li>
+          <li><a href="../vanessa-penachione-acupuntura-em-americana/">Acupuntura em Americana</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="legal">
+      Responsável técnica: Dra. Vanessa Penachione, Psicóloga CRP 06/91299 • Cadastro e-Psi Ativo (CFP).<br>
+      Rua Uruguai, 247 – Jardim Girassol, Americana – SP, 13465-680.<br>
+      Este site não oferece atendimento de urgência. Em situação de crise, ligue para o CVV no 188 (24h, gratuito) ou procure o pronto atendimento mais próximo.<br>
+      © <span id="ano">2026</span> Clínica Vanessa Penachione. Todos os direitos reservados.
+    </div>
+  </div>
+</footer>
+
+<a class="wa-fixo wa" data-origem="flutuante" href="https://wa.me/5519992892126?text=Oi%2C%20vim%20pelo%20site%20para%20saber%20mais%20sobre%20a%20consulta." aria-label="Falar no WhatsApp" target="_blank" rel="noopener">
+  <svg viewBox="0 0 32 32" fill="currentColor"><path d="M16 3C9 3 3.3 8.6 3.3 15.6c0 2.4.7 4.7 1.9 6.7L3 29l6.9-2.1c1.9 1 4 1.6 6.1 1.6 7 0 12.7-5.6 12.7-12.6S23 3 16 3zm0 23.1c-1.9 0-3.8-.5-5.4-1.5l-.4-.2-4.1 1.2 1.2-4-.3-.4c-1.1-1.7-1.6-3.6-1.6-5.6C5.4 9.8 10.2 5.1 16 5.1s10.6 4.7 10.6 10.5S21.8 26.1 16 26.1zm5.8-7.8c-.3-.2-1.9-.9-2.2-1-.3-.1-.5-.2-.7.2-.2.3-.8 1-1 1.2-.2.2-.4.2-.7.1-.3-.2-1.3-.5-2.6-1.6-1-.8-1.6-1.9-1.8-2.2-.2-.3 0-.5.1-.6l.5-.6c.2-.2.2-.3.3-.6.1-.2 0-.4 0-.6l-1-2.4c-.3-.6-.5-.5-.7-.5h-.6c-.2 0-.6.1-.9.4-.3.3-1.2 1.1-1.2 2.7s1.2 3.2 1.4 3.4c.2.2 2.4 3.6 5.7 5 .8.3 1.4.5 1.9.7.8.2 1.5.2 2.1.1.6-.1 1.9-.8 2.2-1.5.3-.8.3-1.4.2-1.5-.1-.2-.3-.3-.6-.4z"></path></svg>
+</a>
+<div class="barra-mobile" id="barra">
+  <a class="btn btn-ouro wa" data-origem="barra_presencial" href="https://wa.me/5519992892126?text=Oi%2C%20vim%20pelo%20site%20e%20gostaria%20de%20agendar%20uma%20consulta%20presencial%20em%20Americana." target="_blank" rel="noopener">Consulta em Americana</a>
+  <a class="btn btn-linha wa" data-origem="barra_online" href="https://wa.me/5519992892126?text=Oi%2C%20vim%20pelo%20site%20e%20gostaria%20de%20agendar%20uma%20consulta%20online." target="_blank" rel="noopener">Online</a>
+</div>
+
+<script>
+/* ===== CONFIG ===== */
+const WHATS = "5519992892126";
+const MSG = {
+  presencial: "Oi, vim pelo site e gostaria de agendar uma consulta presencial em Americana.",
+  online: "Oi, vim pelo site e gostaria de agendar uma consulta online.",
+  geral: "Oi, vim pelo site para saber mais sobre a consulta."
+};
+/* ================== */
+const reduz = matchMedia("(prefers-reduced-motion: reduce)").matches;
+
+// WhatsApp + rastreamento
+const params = new URLSearchParams(location.search);
+const utm = params.get("utm_source") || params.get("utm_campaign");
+const tipo = o => o.includes("presencial") ? "presencial" : o.includes("online") ? "online" : "geral";
+document.querySelectorAll("a.wa").forEach(a=>{
+  const origem = a.dataset.origem || "site";
+  let txt = MSG[tipo(origem)]; if (utm) txt += " [" + utm + "]";
+  a.href = "https://wa.me/" + WHATS + "?text=" + encodeURIComponent(txt);
+  a.target = "_blank"; a.rel = "noopener";
+  a.addEventListener("click", ()=>{
+    try{ if(window.dataLayer) window.dataLayer.push({event:"whatsapp_click", origem, tipo:tipo(origem)}); }catch(e){}
+  });
+});
+
+// menu
+function toggleMenu(b){ const m=document.getElementById("menu"); const on=m.classList.toggle("aberto"); b.setAttribute("aria-expanded",on); }
+document.querySelectorAll("#menu a").forEach(a=>a.addEventListener("click",()=>document.getElementById("menu").classList.remove("aberto")));
+
+// slideshow hero
+(function(){
+  const s=[...document.querySelectorAll(".slide")], d=[...document.querySelectorAll("#dots button")]; let k=0, t;
+  const vai = n => { s[k].classList.remove("ativo"); d[k].classList.remove("ativo"); k=n; s[k].classList.add("ativo"); void d[k].offsetWidth; d[k].classList.add("ativo"); };
+  const roda = () => { clearInterval(t); t=setInterval(()=>vai((k+1)%s.length),6000); };
+  d.forEach((b,n)=>b.addEventListener("click",()=>{vai(n);roda();}));
+  if(!reduz) roda();
+})();
+
+// citação palavra por palavra no scroll
+(function(){
+  const q=document.getElementById("cita");
+  q.innerHTML=q.textContent.split(" ").map(p=>'<span class="pal">'+p+'</span>').join(" ");
+})();
+const pals=[...document.querySelectorAll("#cita .pal")];
+const sinais=[...document.querySelectorAll("#sinaisLista li")];
+
+// scroll: header, progresso, barra, parallax, citação, sinais
+const header=document.getElementById("topo"), barra=document.getElementById("barra"), prog=document.getElementById("prog");
+const pars=[...document.querySelectorAll(".parallax")], finalBg=document.getElementById("finalBg");
+let ultimoY=0, tick=false;
+function frame(){
+  const y=scrollY, h=innerHeight;
+  header.classList.toggle("solid", y>40);
+  header.classList.toggle("some", [y>ultimoY, y>600, !document.getElementById("menu").classList.contains("aberto")].every(Boolean));
+  ultimoY=y;
+  barra.classList.toggle("on", y>h*.35);
+  prog.style.width=(y/(document.documentElement.scrollHeight-h)*100)+"%";
+  if(!reduz){
+    pars.forEach(img=>{ const r=img.parentElement.getBoundingClientRect(); if(r.bottom<0||r.top>h) return; const v=+img.dataset.vel||.1; img.style.transform="translate3d(0,"+(-(r.top+r.height/2-h/2)*v-r.height*.08)+"px,0)"; });
+    const fr=finalBg.parentElement.getBoundingClientRect(); if(fr.top<h) if(fr.bottom>0) finalBg.style.transform="translate3d(0,"+(fr.top*-.15)+"px,0)";
+  }
+  const qr=document.getElementById("cita").getBoundingClientRect();
+  const prog2=Math.min(1,Math.max(0,(h*.85-qr.top)/(qr.height+h*.35)));
+  pals.forEach((p,i)=>p.classList.toggle("on", i < prog2*pals.length*1.15));
+  sinais.forEach(li=>{ const r=li.getBoundingClientRect(); li.classList.toggle("on", r.top < h*.72); });
+  tick=false;
+}
+addEventListener("scroll",()=>{ if(!tick){ tick=true; requestAnimationFrame(frame); } },{passive:true});
+addEventListener("resize",frame); frame();
+
+// reveals + contadores + foto
+const io=new IntersectionObserver(es=>es.forEach(e=>{
+  if(!e.isIntersecting) return;
+  const el=e.target; el.classList.add("on"); io.unobserve(el);
+  if(el.querySelectorAll) el.querySelectorAll(".conta").forEach(c=>{
+    const fim=+c.dataset.n, ini=+c.textContent||0, t0=performance.now(), dur=1600;
+    const passo=t=>{ const p=Math.min(1,(t-t0)/dur), e2=1-Math.pow(1-p,3); c.textContent=Math.round(ini+(fim-ini)*e2).toLocaleString("pt-BR"); if(p<1) requestAnimationFrame(passo); };
+    reduz ? c.textContent=fim.toLocaleString("pt-BR") : requestAnimationFrame(passo);
+  });
+}),{threshold:.15});
+document.querySelectorAll(".rv,#foto").forEach(el=>io.observe(el));
+document.getElementById("ano").textContent=new Date().getFullYear();
+</script>
+</div>
+</body>
+</html>
